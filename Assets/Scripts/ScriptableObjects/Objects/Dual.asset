@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58cb7f71cfa510342af0ead5320d20df, type: 3}
+  m_Name: Dual
+  m_EditorClassIdentifier: 
+  icon: {fileID: -3476979527478288156, guid: 3572ad5bd7cf030489b5c2fc00ce5fe5, type: 3}
+  fireRate: 0.5
+  fireSpeed: 8
+  damage: 3
+  shootForReload: 6
+  shakePower: 0.1
+  shakeDuration: 0
+  shakeAmmo: 0
+  runtimeAnimator: {fileID: 22100000, guid: 72cc1327cca90a049969c6fa1798eaac, type: 2}
+  type: 2
+  ammoAmout: 6
+  ammoTotal: 0
+  shoot: {fileID: 8300000, guid: c3177e120bd6be64b9582cf46861f23d, type: 3}
+  reload: {fileID: 8300000, guid: edc6fd9f1dd6df7479621982fcd06abe, type: 3}
+  melee: {fileID: 8300000, guid: c2c5cbfd6eaa03647b62cdede365d386, type: 3}
+  bulletPrefab: {fileID: 2714405274030948858, guid: d186b097bc33f894ab1640d949bda414,
+    type: 3}
+  flarePrefab: {fileID: 1357224229881024, guid: 584b0f49c9b54ba44ae95a1bfab24e8a,
+    type: 3}

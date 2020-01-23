@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a0e04b7b590b874bac79e3a810f0ba9, type: 3}
+  m_Name: ZombieNormal
+  m_EditorClassIdentifier: 
+  maxhealth: 5
+  speed: 0.5
+  strong: 5
+  distanceFollow: 50
+  attackRate: 1
+  blood: {fileID: 0}
+  particles: {fileID: 0}
+  money: {fileID: 1753400068384063325, guid: 2f50c70b092fb7e4a8f7c4895f7e6164, type: 3}
+  attack: {fileID: 8300000, guid: 55eb9f3035b3ea94aad41b799938b7f5, type: 3}
+  die: {fileID: 8300000, guid: bff78d0b413ccaf46a0f00c967c38992, type: 3}
+  hit: {fileID: 8300000, guid: 9de2ee0d6b599b149aa6bf7df309e183, type: 3}
